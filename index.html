@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <div class="jumbotron">
+
+        <h1 class="text-center">Crystal Collector</h1>
+        <br>
+        <br>
+        <br>
+
+    </div>
+    <!-- instructions -->
+    <div class="container text-center">
+
+        <div class="row">
+            <div class="col-sm-4 rules">
+                <br>
+                <h2>Rules of the Game</h2>
+                <br>
+                <p>Match your points to the Target Value assigned to you at the beginning of the game.</p>
+                <p>Earn points by clicking the Gems. Each Gem holds a different point value.</p>
+                <p>If your point value exceeds the Target Value, you lose the game.</p>
+                <p>If your Point value becomes an exact match of the Target Value, you win!</p>
+
+            </div>
+
+            <!-- clickable gems -->
+
+            <div class="col-sm-8 gems">
+                <br>
+                <h2>Click The Gems!</h2>
+                <br>
+                <br>
+                <img src="assets/images/iconfinder_Diamond_2647514.png" id="red1">
+                <img src="assets/images/iconfinder_Emerald_2647511.png" id="blue1">
+                <img src="assets/images/iconfinder_Radiant_2647505.png" id="red2">
+                <img src="assets/images/iconfinder_Round_Brilliant_2647504.png" id=blue2>
+
+                <!-- div row to track target number and user points -->
+                <div class="row text-center">
+
+                    <div class="col-sm-6 targetNumber">
+                        <br>
+                        <h2>Target Number</h2>
+
+                    </div>
+
+                    <div class="col-sm-6 userPoints">
+                        <br>
+                        <h2>Current Points</h2>
+
+                        <br>
+                        <br>
+                    </div>
+
+                </div>
+                <br>
+                <br>
+
+
+                <!-- div row to track wins and losses -->
+                <div class="row text-left">
+
+                    <div class="col-sm-6 wins">
+                        <h3>Wins: </h3>
+
+                    </div>
+                    <div class="col-sm-6 losses">
+                        <h3>Losses: </h3>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
