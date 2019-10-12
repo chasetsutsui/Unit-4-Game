@@ -1,0 +1,45 @@
+.jumbotron{
+    background-image: url("../images/12.jpg");
+    color: rgb(47, 189, 255);
+    font-family: 'Notable', sans-serif;    
+
+}
+
+h1{
+    font-size: 75px;
+    text-shadow:
+		-3px -3px 0 #000,
+		3px -3px 0 #000,
+		-3px 3px 0 #000,
+		3px 3px 0 #000;
+}
+
+h2{
+    color: rgb(47, 189, 255);
+    font-family: 'Notable', sans-serif;    
+
+}
+
+.rules{
+border-style: solid;
+border-color: rgb(47, 189, 255);
+color: rgb(47, 189, 255);
+
+}
+
+.gems{
+    border-style: solid;
+    border-color: rgb(47, 189, 255);
+    color: rgb(47, 189, 255);
+
+}
+
+
+body{
+   background-color: black;
+}
+
+p{
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 24px;
+}
