@@ -9,8 +9,8 @@ var redGem2 = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
 var blueGem2 = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
 
 var audio = new Audio("http://peal.io/download/ivtnl");
-var audio1 = new Audio("Cash.wav");
-var audio2 = new Audio("Yay.wav");
+var audio1 = new Audio("assets/Cash.wav");
+var audio2 = new Audio("assets/Yay.wav");
 
 // function to run every time a game starts, new target value, 0 user points, new value for each gem
 function startGame() {
