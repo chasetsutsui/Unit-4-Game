@@ -34,10 +34,12 @@ $("#red1").click(function () {
     userPoints = userPoints + redGem1;
     console.log(userPoints);
     console.log(redGem1);
+    audio1.currentTime = 0;
     audio1.play();
 
     $("#currentNumber").html(userPoints);
     if (userPoints > targetValue) {
+        audio.currentTime = 0;
         audio.play();
         alert("you lose");
         losses++;
@@ -49,6 +51,7 @@ $("#red1").click(function () {
         wins++;
         $("#wins").html(wins);
         userPoints = 0;
+        audio2.currentTime = 0;
         audio2.play();
         alert("You Win!!");
         startGame();
@@ -64,10 +67,12 @@ $("#blue1").click(function () {
     $("#currentNumber").html(userPoints);
     console.log(userPoints);
     console.log(blueGem1);
+    audio1.currentTime = 0;
     audio1.play();
 
     $("#currentNumber").html(userPoints);
     if (userPoints > targetValue) {
+        audio.currentTime = 0;
         audio.play();
         alert("you lose");
         losses++;
@@ -80,6 +85,7 @@ $("#blue1").click(function () {
         wins++;
         $("#wins").html(wins);
         userPoints = 0;
+        audio2.currentTime = 0;
         audio2.play();
         alert("You Win!!");
         startGame();
@@ -95,10 +101,12 @@ $("#red2").click(function () {
 
     $("#currentNumber").html(userPoints);
     console.log(redGem2);
+    audio1.currentTime = 0;
     audio1.play();
 
     $("#currentNumber").html(userPoints);
     if (userPoints > targetValue) {
+        audio.currentTime = 0;
         audio.play();
         alert("you lose");
         losses++;
@@ -110,6 +118,7 @@ $("#red2").click(function () {
         wins++;
         $("#wins").html(wins);
         userPoints = 0;
+        audio2.currentTime = 0;
         audio2.play();
         alert("You Win!!");
         startGame();
@@ -123,10 +132,12 @@ $("#blue2").click(function () {
     userPoints = userPoints + blueGem2;
     $("#currentNumber").html(userPoints);
     console.log(blueGem2);
+    audio1.currentTime = 0;
     audio1.play();
 
     $("#currentNumber").html(userPoints);
     if (userPoints > targetValue) {
+        audio.currentTime = 0;
         audio.play();
         alert("you lose");
         losses++;
@@ -138,6 +149,7 @@ $("#blue2").click(function () {
         wins++;
         $("#wins").html(wins);
         userPoints = 0;
+        audio2.currentTime = 0;
         audio2.play();
         alert("You Win!!");
         startGame();
